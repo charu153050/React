@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Context from './Questions/Use Context/Context';
+// import Reducer from './Questions/Use Reducer/Reducer';
+
+
+// import CounterUsingCustomHook from './Questions/Custom Hooks/CounterUsingCustomHook';
+// import Callback from './Questions/Use Callback/callback';
+// import Memo from './Questions/Use Memo/Memo';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <CounterUsingCustomHook/> */}
+    {/* <Memo/> */}
+    {/* <Callback/> */}
+  {/* <Reducer></Reducer> */}
+  {/* <Context/> */}
+
+    </>
+  
   );
 }
 
