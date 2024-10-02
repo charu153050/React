@@ -1,4 +1,5 @@
 import "./App.css";
+import Home from "./Questions/Infinite Scrolling/Home";
 
 // import LazyLoading from "./Questions/Lazy Loading/LazyLoading";
 // import BuggyComponent from "./Questions/Error Boundry/BuggyComponent";
@@ -10,7 +11,7 @@ import "./App.css";
 // import CounterUsingCustomHook from './Questions/Custom Hooks/CounterUsingCustomHook';
 // import Callback from './Questions/Use Callback/callback';
 // import Memo from './Questions/Use Memo/Memo';
-import CounterUsingHOC from './Questions/Higher Order Component/CounterUsingHOC'
+// import CounterUsingHOC from './Questions/Higher Order Component/CounterUsingHOC'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <BuggyComponent />
       </ErrorBoundary> */}
       {/* <LazyLoading/> */}
-      <CounterUsingHOC/>
+      {/* <CounterUsingHOC/> */}
+      <Home/>
     </>
   );
 }
